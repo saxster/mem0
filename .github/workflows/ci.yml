@@ -7,12 +7,6 @@ on:
       - 'mem0/**'
       - 'tests/**'
       - 'embedchain/**'
-  pull_request:
-    paths:
-      - 'mem0/**'
-      - 'tests/**'
-      - 'embedchain/**'
-
 jobs:
   check_changes:
     runs-on: ubuntu-latest
