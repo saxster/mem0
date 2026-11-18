@@ -1,11 +1,6 @@
 name: Publish Python 🐍 distributions 📦 to PyPI and TestPyPI
 
-on:
-  push:
-    branches: [main]
-  release:
-    types: [published]
-
+on: {} # Disabled: local verification only (owner policy, 2026-11-18).
 jobs:
   build-n-publish:
     name: Build and publish Python 🐍 distributions 📦 to PyPI and TestPyPI

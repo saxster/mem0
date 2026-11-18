@@ -1,12 +1,6 @@
 name: ci
 
-on:
-  push:
-    branches: [main]
-    paths:
-      - 'mem0/**'
-      - 'tests/**'
-      - 'embedchain/**'
+on: {} # Disabled: local verification only (owner policy, 2026-11-18).
 jobs:
   check_changes:
     runs-on: ubuntu-latest
